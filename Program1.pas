@@ -3,7 +3,7 @@ Const
   A = 23;
   B = 76;
 var
-  S,U: integer;
+  S,U,M: integer;
   D:real;
 begin
   S := A + B; 
@@ -12,5 +12,7 @@ begin
   writeln('Умножение чисел 23 и 76 равна: S = ', U);
   D :=A/B;
   writeln('Деление чисел 23 и 76 равна: S = ', D);
+  M :=A-B;
+  writeln('Деление чисел 23 и 76 равна: S = ', M);
  
 end.
