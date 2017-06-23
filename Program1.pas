@@ -5,7 +5,7 @@ Const
 var
   S,U,M: integer;
   D:real;
-begin
+begin   //программа является учебной,
   S := A + B; 
   writeln('Сумма чисел 23 и 76 равна: S = ', S);
   U :=A * B;
